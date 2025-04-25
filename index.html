@@ -1,0 +1,202 @@
+<html >
+<head>
+  
+  <title>Café Bliss</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-shadow: 2px 2px 4px #000;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" >Café Bliss</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="heroCarousel">Home</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#about">About Us</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#menu">Menu</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#services">Our Services</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br>
+<br>
+
+<div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" class="d-block w-100" alt="Hero 1" style="height: 500px; object-fit: cover;">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="display-4">Welcome to Café Bliss</h1>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085" class="d-block w-100" alt="Hero 2" style="height: 500px; object-fit: cover;">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="display-4">Taste the Freshness</h1>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/d7/2b/b1/lovely-seating-area-over.jpg?w=900&h=500&s=1" class="d-block w-100" alt="Hero 3" style="height: 500px; object-fit: cover;">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="display-4">Relax & Enjoy</h1>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<br>
+<br>
+
+<section class="container my-5" id="about">
+    <h2 class="mb-4 text-center">About Us</h2>
+    <p class="text-center">Café Bliss was founded with a passion for creating warm, welcoming spaces where people can enjoy the finest coffee, fresh pastries, and meaningful connections. We pride ourselves on sourcing the best beans, supporting local bakers, and crafting drinks with care.</p>
+  </section>
+
+
+<section class="container my-5" id="menu">
+    <h2 class="mb-4 text-center">Our Menu</h2>
+    <div class="row g-4">
+      <div class="col-md-3">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" class="card-img-top" alt="Coffee">
+          <div class="card-body">
+            <h5 class="card-title">Cappuccino</h5>
+            <p class="card-text">Smooth espresso with steamed milk and a touch of foam.</p>
+            <a href="#" class="btn btn-primary">Order $3.50</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d" class="card-img-top" alt="Croissant">
+          <div class="card-body">
+            <h5 class="card-title">Butter Croissant</h5>
+            <p class="card-text">Freshly baked buttery croissant served warm.</p>
+            <a href="#" class="btn btn-primary">Order $2.00</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1506368249639-73a05d6f6488" class="card-img-top" alt="Espresso">
+          <div class="card-body">
+            <h5 class="card-title">Espresso</h5>
+            <p class="card-text">Bold and rich espresso shot to fuel your day.</p>
+            <a href="#" class="btn btn-primary">Order $2.50</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1506368249639-73a05d6f6488" class="card-img-top" alt="Espresso">
+          <div class="card-body">
+            <h5 class="card-title">Espresso</h5>
+            <p class="card-text">Bold and rich espresso shot to fuel your day.</p>
+            <a href="#" class="btn btn-primary">Order $2.50</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container my-5" id="services">
+    <h2 class="mb-4 text-center">Our Services</h2>
+    <div class="row text-center g-4">
+      <div class="col-md-3">
+        <div class="border p-3 h-100">
+          <h5>Fresh Coffee</h5>
+          <p>We brew the freshest coffee with carefully selected beans.</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="border p-3 h-100">
+          <h5>Bakery Delights</h5>
+          <p>Enjoy our range of pastries and baked goods made daily.</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="border p-3 h-100">
+          <h5>Free Wi-Fi</h5>
+          <p>Stay connected with fast and free internet at our café.</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="border p-3 h-100">
+          <h5>Outdoor Seating</h5>
+          <p>Relax in our cozy outdoor seating area with a view.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="container my-5" id="contact">
+  <h2 class="mb-4 text-center">Contact Us</h2>
+  <div class="row">
+    <div class="col-md-6">
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </div>
+    <div class="col-md-6">
+      <h5>Visit Us</h5>
+      <p>123 Coffee Street<br>Café City, CA 90210</p>
+      <p>Email: hello@cafebliss.com<br>Phone: (123) 456-7890</p>
+    </div>
+  </div>
+</section>
+
+
+<footer class="bg-dark text-white text-center py-3">
+  &copy; 2025 Café Bliss. All rights reserved.
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
